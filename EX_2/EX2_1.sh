@@ -1,0 +1,1 @@
+ffmpeg -i Friends.mp4 -c:v libx264 -b:v 5000k Test_freinds.mp4

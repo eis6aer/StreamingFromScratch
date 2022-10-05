@@ -1,0 +1,3 @@
+ffmpeg -i Tears_of_Steel_in_4k.mp4 -bsf:v h264_mp4toannexb -codec copy -f hls -hls_time 6 -hls_list_size 0 -hls_flags single_file Tears_of_Steel_in_4k.m3u8
+ffmpeg -i Tears_of_Steel_in_1280_X.mp4 -bsf:v h264_mp4toannexb -codec copy -f hls -hls_time 6 -hls_list_size 0 -hls_flags single_file Tears_of_Steel_in_1280_X.m3u8
+ffmpeg -i Tears_of_Steel_in_X_720.mp4 -bsf:v h264_mp4toannexb -codec copy -f hls -hls_time 6 -hls_list_size 0 -hls_flags single_file Tears_of_Steel_in_X_720.m3u8

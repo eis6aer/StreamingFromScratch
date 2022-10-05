@@ -1,0 +1,1 @@
+ffprobe -i Nums_5dot1_24_48000.wav -show_streams -select_streams a:0

@@ -1,0 +1,2 @@
+#ffmpeg -i Tears_of_Steel_in_4k.mp4  -c:v libx264 -vf "scale=1280:trunc(ow/a/2)*2" Tears_of_Steel_in_1280_X.mp4
+ffmpeg -i Tears_of_Steel_in_4k.mp4  -c:v libx264 -vf "scale=trunc(oh/a/2)*2:720" Tears_of_Steel_in_X_720.mp4

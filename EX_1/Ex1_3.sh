@@ -1,0 +1,1 @@
+ffmpeg -i MOV_1920_1080.mov -c:v copy -c:a copy MP4_1920_1080_copy.mp4

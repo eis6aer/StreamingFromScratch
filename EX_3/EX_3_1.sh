@@ -1,0 +1,1 @@
+ffmpeg -i 1080p.mp4 -s 640x360 360p.mp4

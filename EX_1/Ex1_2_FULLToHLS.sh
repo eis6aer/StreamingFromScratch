@@ -1,0 +1,1 @@
+ffmpeg -i MOV_1920_1080.mov -c:v libvpx-vp9 -f hls MP4_1920_1080_hls.mp4

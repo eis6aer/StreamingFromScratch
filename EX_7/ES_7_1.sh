@@ -1,0 +1,1 @@
+ffmpeg -i master.mpd -f mpegts tcp://192.168.86.161:2000?listen

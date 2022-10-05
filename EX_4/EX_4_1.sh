@@ -1,0 +1,1 @@
+ffmpeg -i Tears_of_Steel_in_4k.mp4 -c:a ac3 -b:a 128k -ac 2 -ar 48000 Audio_Tears_Of_Steel.mp4

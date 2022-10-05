@@ -1,0 +1,1 @@
+ffmpeg -i Tears_of_Steel_in_4k.mp4  -s 1280x720 Tears_of_Steel_in_720_intento2_p.mp4
